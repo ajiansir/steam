@@ -1,0 +1,465 @@
+
+*{margin: 0;
+    padding:0;
+}
+    a{text-decoration: none;
+        }
+    li{list-style: none;}
+.home{
+    padding-left: 234px;
+    transition: padding 0.25s;
+    position: relative;
+    width: 940px;
+    padding: 0 16px;
+    margin: 45px auto;
+    color: #c6d4df;
+    font-size: 12px;
+    cursor: pointer;
+}
+.home h2{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 10px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding-top: 2px;
+}
+.home #maincap{
+    height: 380px;
+    margin-top: 5px;
+    position: relative;
+}
+.carousel_items{
+    height: 353px;
+ 
+    box-shadow: 0 0 7px 0px #000;
+    position: relative;
+    clear: both;
+
+	overflow:hidden;
+}
+.carousel_items .store{
+    /* opacity: 0; */
+  
+    width: 940px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.carousel_items .store .zhuyao{
+    flex-shrink: 0;
+    background-color: #000;
+    position: relative;
+    z-index: 2;
+    margin-right: 10px;
+    width: 616px;
+    height: 353px;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0 0 10px 5px #000;
+    float: left;
+    background-image: url("./XBYM/steam/capsule_616x353_schinese.jpg");
+}
+.carousel_items .store .zhuyao .screenshot{
+    opacity: 0;
+    width: 616px;
+    height: 353px;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 300ms;
+}
+.carousel_items .store .info{
+    flex-shrink: 1;
+    width: 314px;
+    height: 353px;
+    float: left;
+}
+.carousel_items .store .info .appname{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    height: 59px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.carousel_items .store .info .appname>div{
+    max-height: 52px;
+    overflow: hidden;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #fff;
+
+}
+.carousel_items .store .info .screenshots{
+    width: 348px;
+    display: inline-block;
+    margin-left: -30px;
+    max-height: 176px;
+    position: relative;
+
+}
+.carousel_items .store .info .screenshots>div{
+    width: 162px;
+    height: 69px;
+    padding: 10px 10px 0 0;
+    display: inline-block;
+	position:relative;
+    
+}
+
+
+.carousel_items .store .info .screenshots>div>div{
+    width: 162px;
+    height: 69px;
+    background-size: cover;
+    background-position: center center;
+    float: left;
+    opacity: 0.6;
+}
+.carousel_items .store .info .screenshots>div>div:hover{
+    opacity: 1;;
+}
+
+.carousel_items .store .info .reason{
+    margin-top: 8px;
+    padding-left: 6px;
+    display: inline-block;
+    width: 298px;
+}
+.carousel_items .store .info .reason .reason1{
+    font-size: 21px;
+    font-weight: 200;
+    min-height: auto;
+    padding-right: 10px;
+    padding-top: 6px;
+    line-height: 18px;
+    color: #fff;
+}
+.carousel_items .store .info .reason .additional{
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+.carousel_items .store .info .reason .additional>div{
+    margin: 3px 0;
+    display: inline-block;
+
+    line-height: 19px;
+    padding: 0 7px;
+    background-color: rgba( 255, 255, 255, 0.2 );
+    box-shadow: none;
+    margin-right: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 11px;
+    color: #fff;
+}
+.carousel_items .store .info  .discount_block{
+    position: absolute;
+    bottom: 10px;
+    left: 632px;
+
+}
+.carousel_items .store .info  .discount_block .pars{
+    padding: 0;
+    background: none;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: right;
+	float:left;
+}
+.carousel_items .store .info  .discount_block .pars1{
+    padding: 0;
+    background: none;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: right;
+	float:left;
+	margin-top:1px;
+	margin-right:5px;
+}
+.carousel_items .store .info  .discount_block .pars2{
+    padding: 0;
+    background: none;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: right;
+	float:left;
+		/* 	margin-top:1px; */
+	background:#4c6b22;
+	color: #a4d007;
+	margin-right:5px;
+}
+.carousel_items .store .info  .discount_block .pars .final{
+    padding-left: 0;
+    color: #acdbf5;
+    font-size: 11px;
+
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.carousel_items .store .info  .discount_block .pars1 .final1{
+    padding-left: 0;
+    color: #7193a6;
+	text-decoration:line-through;
+    font-size: 11px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+	
+	.carousel_items .store .info  .discount_block .pars1 .final2{
+    padding-left: 0;
+  
+
+	text-decoration:line-through;
+    font-size: 11px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+	
+.carousel_items .store .info  .platforms{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.7;
+}
+.carousel_items .store .info  .platforms span{
+	float:left;
+}
+.carousel_items .store .info  .platforms img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+.dian{
+  text-align: center;
+    min-height: 37px;
+    padding-bottom: 4px;
+    background: #1b2838;
+
+}
+.dian>div{
+    display: inline-block;
+    margin: 12px 2px;
+    width: 15px;
+    height: 9px;
+    border-radius: 2px;
+    transition: background-color 0.2s;
+    background-color: hsla(202,60%,100%,0.2);
+    cursor: pointer;
+   
+}
+.zjiantou{
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%);
+    top: 122px;
+    position: absolute;
+    width: 23px;
+    height: 36px;
+    padding: 36px 11px;
+    cursor: pointer;
+    z-index: 3;
+    left: -46px;
+}
+.zjiantou:hover{
+    background: linear-gradient( to right, rgba( 171, 218, 244, 0) 5%,rgba( 171, 218, 244, 0.3) 95%);
+}
+.zjiantou>div{
+    background-position-x: 23px;
+    width: 23px;
+    height: 36px;
+    background-image: url(./XBYM/steam/arrows.png)
+}
+.yjiantou{
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%);
+    top: 122px;
+    position: absolute;
+    width: 23px;
+    height: 36px;
+    padding: 36px 11px;
+    cursor: pointer;
+    z-index: 3;
+    right: -46px;
+}
+.yjiantou:hover{
+    background: linear-gradient( to right, rgba( 171, 218, 244, 0) 5%,rgba( 171, 218, 244, 0.3) 95%);
+}
+.yjiantou>div{
+   
+    width: 23px;
+    height: 36px;
+    background-image: url(./XBYM/steam/arrows.png)
+}
+.pct{
+    color: #a4d007;
+    background: #4c6b22;
+    display: inline-block;
+    padding: 0 3px;
+
+}
+.prices{
+    background-color: rgba(0,0,0,0.6);
+    padding: 0 5px;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: right;
+}
+.prices .div1{
+    display: inline;
+    color: #7193a6;
+    text-decoration: line-through;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+
+    font-size: 11px;
+}
+.prices .div2{
+    display: inline;
+    color: #acdbf5;
+
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    padding-left: 4px;
+    font-size: 11px;
+  
+}
+.xiong{
+    background-image: url(./XBYM/steam/capsule_616x353.jpg)!important;
+}
+.shaonv{
+    background-image: url(./XBYM/steam/nvhai.jpg)!important;
+}
+.kuku{
+    background-image: url(./XBYM/steam/kuku.jpg)!important;
+}
+.xiangjiao{
+    background-image: url(./XBYM/steam/xiangjiao.jpg)!important;
+}
+.gta{
+    background-image: url(./XBYM/steam/gta.jpg)!important;
+}
+.cs{
+    background-image: url(./XBYM/steam/cs.jpg)!important;
+}
+.zhaohuan{
+    background-image: url(./XBYM/steam/zhaohuan.jpg)!important;
+}
+.tom{
+    background-image: url(./XBYM/steam/tom.jpg)!important;
+}
+.huoren{
+    background-image: url(./XBYM/steam/huoren.jpg)!important;
+}
+.nvxia{
+    background-image: url(./XBYM/steam/nvxia.jpg)!important;
+}
+
+.hovergame{
+	
+    color: #30455a!important;;
+    font-size: 12px!important;;
+    overflow: hidden!important;;
+    box-shadow: 0 0 12px #000000!important;;
+width:250px!important;;
+height:250px!important;;
+background: linear-gradient(to bottom, rgba(227,234,239,1) 0%,rgba(199,213,224,1) 100%)!important;;
+opacity:1!important;;
+position:absolute;
+z-index:999!important;;
+right:30px;
+top:35px;
+display: none;
+}
+.hovergame h4{
+	
+	color: #222d3d;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    text-transform: unset;
+    letter-spacing: 0px;
+    margin-top: 4px;
+    line-height: 17px;
+    margin-bottom: 4px;
+}
+.hovergame .span1{
+	font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.hovergame .hover1{
+	    margin-bottom: 6px;
+}
+.hovergame .hover1 .hover_review_summary{
+	margin-bottom: 10px;
+    border-radius: 2px;
+    padding: 4px;
+    color: #c6d4df;
+    background-color: rgba( 38, 54, 69, 0.6);
+}
+.hovergame .hover1 .hover_review_summary .mixed{
+	color: #B9A074;
+	
+
+}
+.hovergame .hover2{
+margin-bottom: 6px;}
+
+.hovergame .hover2 .hover_tag_row{
+	overflow: hidden;
+    height: 19px;
+    margin-top: 2px;
+}
+.hovergame .hover2 .hover_tag_row .app_tag{
+	background-color: #96a3ae;
+    color: rgba(227,234,239,1);
+    box-shadow: none;
+	margin-right: 2px;
+	cursor: pointer;
+    margin-bottom: 3px;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 4px;
+    font-size: 11px;
+    border-radius: 2px;
+	display: inline-block;
+    line-height: 19px;
+}
+.home h2 .right{
+    float: right;
+    text-transform: none;
+    letter-spacing: normal;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    border: 1px solid rgba(255,255,255,0.4);
+    padding: 0 15px;
+    border-radius: 2px;
+}
+.home h2 .right a{
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none !important;
+    color: #fff !important;
+    background: transparent;
+    line-height: 20px;
+}
+.home h2 .right:hover{
+    border-color: #fff !important;
+    
+}

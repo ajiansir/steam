@@ -1,0 +1,1343 @@
+*{	
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+.vv{
+	  background-image: url("./XBYM/steam/colored_body_top2.png");
+	      min-height: 100%;
+    height: auto;
+    position: relative;
+
+}
+.top{
+	width:100%;
+	height:104px;
+	background: #171a21;
+}
+.top .banxin{
+	width:940px;
+	height:100%;
+	margin:auto;
+	position:relative;
+	
+}
+.top .banxin .logo{
+	float: left;
+    padding-top: 30px;
+    margin-right: 40px;
+    width: 176px;
+    height: 44px;
+	
+}
+.top .banxin .supernav_container{
+	position: absolute;
+    left: 200px;
+	
+}
+.top .banxin .supernav_container .menuitem{
+	display: block;
+    position: relative;
+    padding-top: 45px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    line-height: 16px;
+    float: left;
+    font-size: 14px;
+    color: #b8b6b4;
+    text-transform: uppercase;
+}
+
+.top .banxin .global_actions{
+	position: absolute;
+    right: 0px;
+    top: 6px;
+    height: 21px;
+    line-height: 21px;
+    color: #b8b6b4;
+    font-size: 11px;
+    z-index: 401;
+}
+.top .banxin .meau{
+	line-height: 24px;
+    vertical-align: top;
+    display: inline-block;
+}
+.top .banxin .meau .anzhang{
+	display: inline-block;
+    position: relative;
+    height: 21px;
+    line-height: 24px;
+    margin-right: 3px;
+}
+.top .banxin .meau .anzhang a{
+	background-color: #5c7e10;
+	display: inline-block;
+    padding-left: 35px;
+    padding-right: 9px;
+    background-position: 10px 5px;
+    background-image: url("./XBYM/steam/btn_header_installsteam_download.png");
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #e5e4dc;
+    font-weight: normal;
+	cursor: pointer;
+}
+
+.top .banxin .meau .anzhang a:hover{
+	    color: #ffffff;
+}
+.top .banxin .meau .denglu{
+	color: #b8b6b4;
+	padding: 0 4px;
+	    font-size: 11px;
+}
+.top .banxin .meau .pulldown{
+	
+	display: inline-block;
+    padding-left: 2px;
+    line-height: 25px;
+	margin-right: 5px;
+	padding-right: 18px;
+    background-image: url("./XBYM/steam/btn_arrow_down_padded.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+.top .banxin .meau .xiala{
+	z-index: 200;
+    position: absolute;
+    box-shadow: 0 0 12px #000000;
+visibility: visible;
+    top: 25.0125px;
+    left: -111.062px;
+    display: block;
+	opacity:0;
+	pointer-events:none;
+	transition:all 1s;
+	
+}
+.top .banxin .meau .xiala .xialameau{
+	border: 1px solid #171a21;
+    position: relative;
+    background-color: #171a21;
+	padding: 6px 0px;
+}
+.top .banxin .meau .xiala .xialameau a{
+	display: block;
+    padding: 5px 12px;
+    color: #b8b6b4;
+    text-transform: none;
+    font-family: Motiva Sans, Arial, Helvectica, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+    cursor: pointer;
+}
+.top .banxin .meau .xiala .xialameau a:hover{
+	color: #ffffff;
+}
+.content{
+	width:100%;	
+	
+}
+.content .banxin{
+	width:1048px;
+	margin:auto;
+	position:relative;
+}
+
+.content .pagehome{
+	position: relative;
+    width: 940px;
+    margin: 0 auto;
+    z-index: 300;
+	background: rgba( 62, 126, 167, 0.8);
+    box-shadow: 0 0 3px rgba( 0, 0, 0, 0.4);
+	margin-top:31px;
+	height:35px;
+	
+}
+.content .pagehome .shangdian{
+	padding: 1px;
+ 
+ border-right: 1px solid rgba( 16, 21, 25, 0.3);
+    cursor: pointer;
+	position:relative;
+	float:left;
+}
+.content .pagehome .shangdian .pulldown1{
+	padding-right: 7px;
+    background: none;
+	color: #d9dadd;
+    font-size: 13px;
+    line-height: 34px;
+    text-shadow: -1px -1px 0px rgba( 0, 0, 0, 0.25 );
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+	padding: 0 12px;
+    display: block;
+}
+.content .pagehome .shangdian .pulldown1 a{
+	color: inherit;
+ display: inline;
+}
+.content .pagehome .shangdian .pulldown1 span{
+	width: 19px;
+    height: 12px;
+    padding: 0;
+    display: inline-block;
+    background-image: url("./XBYM/steam/btn_arrow_down_padded_white.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    vertical-align: text-bottom;
+}
+.content .sdm{
+	
+    top: 35px;
+    left: 0px;
+    opacity:0;
+	z-index: 200;
+    position: absolute;
+    box-shadow: 0 0 12px #000000;
+	transition:all .5s;
+	pointer-events:none;
+	
+	
+}
+.content .hr{
+	margin: 5px 10px 5px 10px;
+    background-color: #fff;
+	height:1px;
+}
+.content .sdm-1{
+	    background: linear-gradient( to bottom, #e3eaef 5%, #c7d5e0 95%);
+    padding: 8px 5px 8px 5px;
+}
+.content .sdm-1 a{
+	color: #000;
+    cursor: pointer;
+	display: block;
+    padding: 7px 12px;
+    text-transform: none;
+    font-family: Motiva Sans, Arial, Helvectica, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content .sdm-1 a:hover{
+	color: #fff;
+    background-color: #212d3d;
+}
+.content .sdm-1 .popub{
+	color: #4f94bc;
+	font-size: 11px;
+    padding: 2px 12px 3px 12px;
+    cursor: default;
+}
+
+.search{
+	float: right;
+    padding: 3px 4px 2px;
+    height: 30px;
+}
+.search_area .sbox{
+	background-image: none;
+    background-color: #316282;
+    border-radius: 3px;
+    border: 1px solid rgba( 0, 0, 0, 0.3);
+    box-shadow: 1px 1px 0px rgba( 255, 255, 255, 0.2);
+    color: #fff;
+    margin-bottom: 0px;
+    outline: none;
+    height: 27px;
+    padding: 0px 6px;
+}
+.search_area .sbox:hover{
+	background-image: url("./XBYM/steam/store_header_search_hover.png");
+    border: 1px solid #4c9acc;
+    box-shadow: 1px 1px 0px rgba( 255, 255, 255, 0.0);
+	
+	background-image: none;
+}
+.search_area .sbox .def{
+	color: #0e1c25;
+    font-size: 14px;
+    margin-top: 1px;
+    text-shadow: 1px 1px 0px rgba( 255, 255, 255, 0.1);
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+	font-style: italic;
+	border: none;
+    background-color: transparent;
+	margin-left: 8px;
+    width: 180px;
+    outline: none;
+    line-height: 26px;
+}
+input::-webkit-input-placeholder{
+		color: #0e1c25;
+}
+.search_area .sbox a{
+    position: absolute;
+    right: 2px;
+    top: 0;
+}
+.search_area .sbox a img{
+	width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    background-image: url("./XBYM/steam/search_icon_btn.png")
+}
+.pagezuo{
+	    display: block;
+    width: 210px;
+	position: absolute;
+    left: -200px;
+	z-index: 2;
+	top:-15px;
+}
+.pagezuo .gutter{
+	border: none;
+    background: none;
+    padding-left: 0px;
+}
+.pagezuo .gutter .head{
+	    color: #c6d4df;
+    font-size: 11px;
+    text-transform: uppercase;
+	line-height: 16px;
+    margin: 7px 0;
+}
+.pagezuo .gutter .head img{
+    max-width: 210px;
+   
+}
+.pagezuo .gutter .items {
+    margin-bottom: 15px;
+}
+.pagezuo .gutter .items a{
+	margin: 0 0 8px 0;
+	    color: #66c0f4;
+		line-height: 16px;
+		font-size: 13px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    display:block;
+    cursor: pointer;
+	
+	
+}
+.pagezuo .gutter .items a:hover{
+    color: #ffffff;
+}
+.pagezuo .gutter .fd{
+	background-image: url("./XBYM/steam/store_menu_icons.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+    background-position: 0px 0px;
+   
+	
+}
+.pagezuo .gutter .jsj{
+	background-image: url("./XBYM/steam/store_menu_icons.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+    background-position: -16px 0px;
+    
+}
+.pagezuo .gutter .bq{
+	background-image: url("./XBYM/steam/store_menu_icons.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+    background-position: -32px 0px;
+	
+}
+.spotlight{
+    position: absolute;
+    top:0;
+    display: none;
+}
+.spotlight:nth-child(1){
+   display: block;
+}
+.spotlight .zuoyi{
+    width: 306px;
+    height: 360px;
+    margin-right: 11px;
+    background-image: url("./XBYM/steam/background_spotlight.jpg");
+    box-shadow: 0 0 5px #000000;
+    float: left;
+    position: relative;
+ 
+}
+.spotlight .zuoyi .zimg{
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 306px;
+    overflow: hidden;
+}
+.zuoyi .zcontent{
+    padding: 8px 16px 12px 16px;
+    color: #9099a1;
+    font-size: 12px;
+    position: absolute;
+    bottom: -28px;
+    width: 274px;
+    background: url("./XBYM/steam/background_spotlight.jpg")bottom center no-repeat;
+    margin: 0px;
+    min-height: 23px;
+
+}
+.zuoyi .zcontent h2{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 10px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding-top: 2px;
+}
+.zuoyi .zcontent .spotlight_body{
+    font-weight: 300;
+    color: #acdbf5;
+}
+.zuoyi .zcontent .price{
+    margin-top: 10px;
+}
+.zuoyi .zcontent .price .discount{
+    position: relative;
+}
+.zuoyi .zcontent .price .discount .discount_pct{
+    line-height: 34px;
+    padding: 0 5px;
+    font-size: 26px;
+    color: #a4d007;
+    background: #4c6b22;
+  
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    float: left;
+}
+.zuoyi .zcontent .price .discount .discount_prices{
+    background-color: rgba(0,0,0,0.6);
+    line-height: 13px;
+    padding: 4px 10px 4px 7px;
+  
+    vertical-align: bottom;
+    text-align: right;
+    float: left;
+}
+.zuoyi .zcontent .price .discount .discount_original_price{
+    color: #7193a6;
+    text-decoration: line-through;
+    font-size: 11px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.zuoyi .zcontent .price .discount .discount_final_price{
+    color: #acdbf5;
+    font-size: 13px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+
+}
+.zuoer{
+  float: left;
+}
+.zuoer .specials_target a{
+    background: url("./XBYM/steam/background_spotlight.jpg")bottom center no-repeat;
+    width: 306px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px #000000;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.zuoer .specials_target a .tu{
+    padding-top: 46.57534246575342%;
+}
+.zuoer .specials_target a .tu img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.zuoer .specials_target a .discount{
+    margin: 0;
+    text-align: right;
+    padding: 5px;
+    line-height: 17px;
+    min-height: 17px;
+    font-size: 12px;
+    float: right;
+}
+.zuoer .specials_target a .discount .discount_pct{
+    line-height: 34px;
+    padding: 0 5px;
+    font-size: 26px;
+    color: #a4d007;
+    background: #4c6b22;
+ 
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    float: left;
+}
+.zuoer .specials_target a .discount .discount_prices{
+    background-color: rgba(0,0,0,0.6);
+    line-height: 13px;
+    padding: 4px 10px 4px 7px;
+
+    vertical-align: bottom;
+    text-align: right;
+    float: left;
+}
+.zuoer .specials_target a .discount .discount_original_price{
+    color: #7193a6;
+    text-decoration: line-through;
+    font-size: 11px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.zuoer .specials_target a .discount .discount_final_price{
+    color: #acdbf5;
+    font-size: 13px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+
+}
+.bigbutton{
+    width: 940px;
+    margin: 0 auto;
+}
+.bigbutton h2{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 10px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding-top: 2px;
+}
+.bigbutton .buttonz .bthone{
+    margin-right:7px;
+    display: inline-block;
+}
+.bigbutton .buttonz .bthone a{
+    width: 226px;
+    height: 58px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 56px;
+    color: #66c0f4;
+    text-align: center;
+    background: url("./XBYM/steam/background_spotlight.jpg");
+    background-position-y: -105px;
+    border-radius: 3px;
+    box-shadow: 0 0 4px #000;
+}
+.bigbutton .buttonz .bthone a:hover{
+    background-position-y: -142px;
+    color: #fff;
+}
+.curator_page{
+    background: linear-gradient( 153deg, rgba( 255, 255, 255, 0.2) 5%,rgba( 255, 255, 255, 0.1) 95%);
+    box-shadow: inset 0 0 160px rgba(255, 255, 255, 0.2);
+    padding: 16px 13px;
+    flex-direction: column;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    min-height: 442px;
+    position: absolute;
+    top:0;
+    display: none;
+}
+.curator_page:nth-child(1){
+    display: block;
+}
+.profile{
+    background: linear-gradient( 0deg, rgba(0,0,0,0.2) 5%,rgba(0,0,0,0) 20%);
+    margin-left: -13px;
+    padding-left: 13px;
+    margin-right: -13px;
+    padding-right: 13px;
+    padding-bottom: 12px;
+    margin-bottom: 14px;  
+    height: 86px;
+}
+.profile a {
+    float: left;
+    display:block;
+}
+.profile a img{
+    margin-right: 12px;
+    width: 70px;
+    height: 70px;
+}
+.profile .info{
+    float: left;
+    margin-top: 7px;
+}
+.profile .info .name{
+    font-size: 19px;
+    font-weight: 300;
+    color: #c7d5e0;
+}
+.profile .info .name span{
+    color: #eff3f6
+}
+.actions{
+    padding: 2px;
+    margin-top: 6px;
+    background-color: rgba(0,0,0,0.2);
+    width: fit-content;
+    height: 33px;
+    
+}
+.actions .guanzhu {
+    float: left;
+}
+.actions .guanzhu a{
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #D2E885 !important;
+    background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
+}
+.actions .guanzhu a span{
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 2px;
+    display: block;
+    background: linear-gradient( to bottom, #799905 5%, #536904 95%);
+}
+.actions .zhe{
+    margin-left: 5px;
+    line-height: 16px;
+    float: left;
+}
+.actions .zhe span{
+    display: block;
+    font-size: 15px;
+}
+.actions .tu{
+    align-items: flex-end;
+    font-size: 15px;
+    color: #fff;
+    padding-bottom: 6px;
+    margin-right: 16px;
+    margin-left: 16px;
+    float: left;
+   line-height: 37px;
+}
+.actions .tu img{
+    width: 16px;
+    height: 16px;
+    vertical-align: text-top;
+}
+.actions .tu div{
+    float: left;
+    margin-right: 12px;
+}
+.xarea{
+    text-align: right;
+    position: absolute;
+    right: 15px;
+}
+.xarea a{
+    text-decoration: underline;
+    color: #fff;
+}
+.curations{
+    margin-right: 0px;
+}
+.curations .xiaoban{
+ width: 224px;
+ float: left;
+ margin-right: 5px;
+}
+.curations .xiaoban .aone{
+    box-shadow: 0 0 3px rgba(0,0,0,0.6);
+    width: 100%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: 105px;
+  
+}
+.curations .xiaoban .aone img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.curations .xiaoban .aone span{
+    color: #acdbf5;
+    font-size: 11px;
+    background-color: rgba(20,31,44,0.7);
+    display: inline-block;
+    border-radius: 1px;
+    padding:0 5px 0 5px;
+    line-height: 17px;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.curations .xiaoban .spt{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 23px;
+    color: #66c0f4;
+}
+.curations .xiaoban p{
+    font-weight: 300;
+    line-height: 17px;
+    padding-right: 12px;
+    word-wrap: break-word;
+}
+.yihang a{
+    position: relative;
+    vertical-align: top;
+    width: 229px;
+    background: linear-gradient( -45deg, rgba(64,121,153,1) 5%,rgba(42,62,89,1) 95%);
+    float: left;
+    margin-right: 8px;
+    box-shadow: 0 0 5px #000;
+    
+
+}
+.yihang a div{
+    width: 100%;
+    height: 106.5px;
+    padding-bottom: 27px;
+}
+.yihang a div img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.yihang a span{
+    color: #acdbf5;
+    font-size: 11px;
+    background-color: rgba(20,31,44,0.4);
+    display: inline-block;
+    border-radius: 1px;
+    padding: 0 5px 0 5px;
+    line-height: 17px;
+    position: absolute;
+    right:7px;
+    bottom: 5px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.yihang a .fu{
+    color: #a4d007;
+    background: #4c6b22;
+    font-size: 11px;
+    padding: 0 3px;
+    float: left;
+    right: 69px;
+}
+.yihang a .ba{
+    color: #577180;
+    text-decoration: line-through;
+    font-size: 11px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    float: left;
+    right: 38px;
+}
+.gg .yihang {
+    display: none;
+    position: absolute;
+    top:0;
+}
+.gg .yihang:nth-child(1){
+    display: block;
+}
+.baoka{
+    width: 940px;
+    margin:  auto;
+}
+.ka{
+    width: 618px;
+    height: 815px;
+    margin-top: -75px;
+    float: left;
+}
+.ka .kas div{
+    line-height: 29px;
+    font-size: 13px;
+    color: #2f89bc;
+    background: #1a2737;
+    text-shadow: -1px -1px rgba( 0, 0, 0, 0.25 );
+    cursor: default;
+    margin-top: 0;
+    box-shadow: none;
+    float: left;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 0 10px;
+    vertical-align: top;
+   
+}
+.ka .kas div:nth-child(1){
+    color: #fff;
+    font-size: 15px;
+    margin-top: 1px;
+    background: url("./XBYM/steam/background_spotlight.jpg")
+}
+.xiabao{
+    width: 100%;
+    margin-top: 15px;
+}
+.xiabao .good {
+    position: relative;
+    display:block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #202d39;
+    background: rgba( 0, 0, 0, 0.2 );
+    height: 69px;
+    margin-bottom: 5px;
+   
+}
+
+
+.xiabao .good .tupian{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    line-height: 69px;
+    transition: opacity 0.25s;
+    float: left;
+}
+.xiabao .good .tupian img{
+    width: 184px;
+    height: 69px;
+}
+.xiabao .good .dicount{
+    margin-top: 24px;
+    color: #acdbf5;
+    font-size: 13px;
+    position: absolute;
+    right: 10px;
+    top:6px;
+
+}
+.xiabao .good .dicount .discount_original_price{
+    text-decoration: line-through;
+    font-size: 11px;
+    color: #7193a6;
+    position: absolute;
+    right: 0;
+    top:-15px;
+}
+.xiabao .good .dicount .discount_pct{
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 4px;
+    margin-top: 8px;
+    border-radius: 1px;
+    color: #a4d007;
+    background: #4c6b22;
+    position: absolute;
+    top:-11px;
+    right: 65px;
+}
+.xiabao .good .tab{
+    padding-top: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 12px;
+    width: 379px;
+   margin-left: 195px;
+}
+.xiabao .good  .tabname{
+    color: #c7d5e0;
+    font-size: 1.25em;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    transition: color 0.25s;
+}
+.xiabao .good  .tab_item_details{
+    color: #384959;
+    line-height: 20px;
+}
+.xiabao .good span{
+    float: left;
+}
+.xiabao .good .win{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("./XBYM/steam/icon_platform_win.png")
+}
+.xiabao .good .mac{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url("./XBYM/steam/icon_platform_mac.png")
+}
+.xiabao .good .steam{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url("./XBYM/steam/icon_platform_linux.png")
+}
+
+
+.xiabao .good .tab_item_top_tags{
+    height: 20px;
+    white-space: normal;
+    overflow: hidden;
+    width: 184px;
+}
+.baiyou{
+    position: relative;
+    margin-top: -30px;
+    background: linear-gradient( to right, #95bbd4 5%,#859bac 95%);
+    height: 735px;
+    width: 308px;
+    display:none;
+      float: right;
+}
+.baiyou .tab_preview{
+    position: absolute;
+    top: 9px;
+    left: 16px;
+
+    transition: opacity 300ms;
+    pointer-events: none;
+    width: 292px;
+}
+.baiyou .tab_preview h2{
+    text-transform: none;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #263645;
+    padding-right: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 2px;
+    margin-top: 1px;
+    font-family: "Motiva Sans", Sans-serif;
+    margin: 0 0 10px;
+    font-weight: normal;
+    padding-top: 2px;
+}
+.baiyou .tab_preview .tab_review_summary{
+    padding: 5px 7px;
+    margin-bottom: 10px;
+    background-color: rgba( 38, 54, 69, 0.6);
+    width: 258px;
+    border-radius: 2px;
+    color: #c6d4df;
+    font-size: 12px;
+}
+.baiyou .tab_preview .title{
+  padding-bottom: 5px;
+}
+.baiyou .tab_preview  .game_review{
+    color: #66C0F4;
+    margin-left: 1px;
+}
+.baiyou .tab_preview  .tigers{
+    margin-top: 5px;
+    height: 22px;
+    overflow: hidden;
+}
+.baiyou .tab_preview  .tigers a{
+    background-color: rgba( 38, 54, 69, 0.6);
+    display: inline-block;
+    line-height: 19px;
+    padding: 0 7px;
+    box-shadow: none;
+    margin-right: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 11px;
+    color: #fff;
+}
+.baiyou .screenshot{
+    width: 258px;
+    height: 134px;
+    margin-top: 3px;
+    background-size: cover;
+    background-position: center center;
+    padding: 8px;
+}
+.ka .dibu{
+    text-align: right;
+    background: rgba( 0, 0, 0, 0.2 );
+    padding: 4px;
+}
+.ka .dibu .geng{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c6d4df;
+    font-size: 12px;
+}
+.ka .dibu a{
+    padding: 1px;
+    cursor: pointer;
+    color: #fff !important;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 2px;
+    padding: 2px 15px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.di{
+    height: 32px;
+    font-size: 12px;
+    background: rgba( 0, 0, 0, 0.2 );
+    padding: 4px;
+    margin-bottom: 5px;
+}
+.di .paged{
+    float: left;
+    color: #3b6e8c;
+    line-height: 30px;
+
+}
+.di .biaodian{
+    float:right;
+    margin-top: 6px;
+}
+.di .biaodian .bthz{
+    height: 17px;
+    line-height: 17px;
+    border-radius: 3px;
+    padding: 0px 16px;
+    color: #67c1f5;
+    background-color: rgba( 103, 193, 245, 0.2 );
+    opacity: 0.2;
+    float: left;
+}
+.di .biaodian .bthy{
+    background-color: rgba( 103, 193, 245, 0.2 );
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0px 16px;
+    color: #67c1f5;
+   
+    height: 17px;
+    line-height: 17px;
+    border: 1px transparent;
+    float: left;
+}
+.di .biaodian .bthy:hover{
+    background-color: #66c0f4;
+    border-color: #66c0f4;
+    color: #fff;
+    text-decoration: none;
+}
+.di .dd{
+    float: left;
+    margin-right: 14px;
+    margin-top: 3px;
+    color: #fff;
+}
+.di .dd span{
+    color: #3b6e8c;
+    font-size: 12px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.zhibo{
+    width: 940px;
+    margin: 20px auto;
+    margin-top: 370px;
+}
+.zhibo ul{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 206px;
+}
+.zhibo ul li{
+    width: 306px;
+    background: rgba(255,255,255,0.1);
+    float: left;
+    margin-right: 11px;
+    position: relative;
+    height: 206px;
+    cursor: pointer;
+}
+.zhibo ul li:hover .live{
+    color:#67c1f5;
+}
+.zhibo ul li div .img1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.zhibo ul li div .img2{
+    position: absolute !important;
+    top: 60px !important;
+    left: 115px !important;
+    width: 80px !important;
+    height: 55px !important;
+    z-index: 2;
+}
+.zhibo ul li .title{
+    margin-top: 33px;
+    padding-bottom: 6px;
+    margin-left: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;;
+}
+.zhibo ul li .title .live_stream_app{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #c7d5e0;
+    font-size: 13px;
+    line-height: 23px;
+}
+.zhibo ul li .title  .live_steam_viewers{
+    font-size: 13px;
+    margin: 0px 5px 0px 0px;
+    padding-left: 28px;
+    pointer-events: none;
+    background-image: url("./XBYM/steam/icon_viewers.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 2px;
+    line-height: 23px;
+    text-decoration: none;
+    float: right;
+    color: #fff;
+}
+.zhibo ul li .live{
+    left: 5px;
+    overflow: hidden;
+    background: url("./XBYM/steam/下载.png") #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+    background-position-x: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 3px 6px 3px 20px;
+    box-shadow: 0 0 7px #a94847;
+    width: 30px;
+    position:absolute;
+    top: 2px;
+    color: #fff;
+}
+.down{
+    width: 100%;
+  background: #171a21;
+  height: 250px;
+}
+.down .banxin{
+    width: 940px;
+    margin:auto;  
+    padding-top: 32px;  
+}
+.down .banxin .rule{
+    height: 8px;
+    border-top: 1px solid  #29363d;
+}
+.down .banxin .footer_nav .small{
+    margin-right: 5px;
+    border-radius: 2px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #67c1f5 !important;
+    background: rgba( 103, 193, 245, 0.2 );
+    padding: 1px 16px 1px 16px;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 2px;
+    float: left;
+}
+.down .banxin .footer_nav{
+    height: 34px;
+}
+.down .banxin .footer_nav .drop{
+    width: 131.6px;
+    top: 22px;
+    left: 0px;
+    position: absolute;
+    box-shadow: 0 0 12px #000000;
+    transition: all .5s;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 10 ;
+}
+.down .drop .meau{
+    background: linear-gradient( to bottom, #e3eaef 5%, #c7d5e0 95%);
+    padding: 8px 5px 8px 5px;
+    border: none;
+    position: relative;
+}
+.down .drop .meau a{
+    display: block;
+    padding: 6px 12px;
+    text-transform: none;
+    font-family: Motiva Sans, Arial, Helvectica, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+    color: #000;
+}
+.down .drop .meau a:hover{
+    color: #fff;
+    background-color: #212d3d;
+}
+.xiadian{
+    height: 22px;
+    float: left;
+    position: relative;
+}
+.steamlogo{
+    float: right;
+    padding-top: 2px;
+    
+}
+.steamlogo1{
+    float: left;
+}
+.down .text{
+    float: left;
+    margin-left: 12px;
+    color: #8F98A0;
+    font-size: 12px;
+    line-height: 16px;
+    float: left;
+}
+.down .text .ll a{
+    color: #ffffff;
+}
+.down .links{
+    margin-top: 10px;
+    float: left;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    color: #61686D;
+    
+}
+.down .links a{
+    color: #C6D4DF;
+    position: relative;
+}
+.down .links a img{
+    position: absolute;
+    top:0;
+    left: -2px;
+}
+.doww{
+    width: 100%;
+    height:267px;
+    background-color: #000;
+    margin-top: 50px;
+}
+.doww .banxin{
+    width: 960px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 25px 0;
+}
+.doww .banxin .xian{
+    width: 940px;
+    margin:0 auto;
+    font-weight: normal;
+    font-size: 24px;
+    color: #67c1f5;
+    text-align: center;
+    background-image: url("./XBYM/steam/下载 (1).png");
+    background-repeat: repeat-x;
+}
+.doww .banxin .xian span{
+    font-weight: normal;
+    font-size: 24px;
+    color: #67c1f5;
+    text-align: center;
+    background-color: #000;
+    z-index: 99;
+    position: relative;
+}
+.doww p{
+    text-align: center;
+    font-size: 15px;
+    color: #8f98a0;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    margin-top: 30px;
+}
+.doww .g2:hover{
+    color: #66c0f4!important;
+}
+.doww  .mmm{
+    border-radius: 4px;
+    border: 2px solid #172030;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #D2E885 !important;
+    background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 3px;
+}
+.doww  .mmm:hover{
+    color: #fff!important;
+    background: linear-gradient( to bottom, #b6d908 5%, #80a006 95%);
+}
